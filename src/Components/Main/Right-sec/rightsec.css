@@ -176,3 +176,18 @@
         width: 100%;
     }
 }
+
+
+.right-sec .notification-icon {
+    position: absolute;
+    top: 25%;
+    right: 7px;
+    font-size: 1.3rem;
+    color: #043b4a;
+}
+.right-sec .notification-icon:hover{
+    font-size: 1.4rem;
+    color: #05647f;
+    transition: 300ms;
+    cursor: pointer;
+}

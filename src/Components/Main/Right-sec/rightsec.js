@@ -3,7 +3,7 @@ import './rightsec.css'
 import {BsArrowRight} from 'react-icons/bs'
 import {AiOutlineUser,AiOutlineMail} from 'react-icons/ai'
 import {TiCloudStorageOutline} from 'react-icons/ti'
-
+import {BiSolidBellRing} from 'react-icons/bi'
 function Rightsec() {
     return (
         <div className='right-sec'>
@@ -97,7 +97,7 @@ function Rightsec() {
                     </div>
                 </div>
             </div>
-        
+        <BiSolidBellRing className="notification-icon"/>
         </div>
     )
 }

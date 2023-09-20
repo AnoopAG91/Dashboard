@@ -10,6 +10,12 @@ a.navbar-brand {
     color: white;
     font-size: 1.5rem;
     font-weight: bold;
+    border-bottom: 3px solid transparent;
+}
+.navbar-brand:hover {
+    color: #dbdbdb;
+    transition: 350ms;
+    border-bottom: 3px solid white;
 }
 .dropdown-btn {
     background-color: #ffffff;
@@ -48,6 +54,9 @@ a.dropdown-item {
     button.navbar-toggler {
         background: white;
     }
+    button.navbar-toggler {
+        background-color: white;
+    }
     .top-sec {
         width: 100%;
         display: flex;
@@ -66,6 +75,9 @@ a.dropdown-item {
         left: -50%;
         top: 40px;
         background-color: #23404b;
+    }
+    .navbar-toggler:focus{
+        color: transparent;
     }
     a.dropdown-item {
         color: white;

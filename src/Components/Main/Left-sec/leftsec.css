@@ -36,8 +36,14 @@
     width: 100%;
     padding: 10px;
 }
+.dashboard-sec button {
+    text-align: left;
+    background-color: #21414c;
+    box-shadow: 0 3px 10px rgb(0,0,0,0.3);
+    color: white;
+}
 .dashboard-sec button.btn.btn-light:hover {
-    background-color:#254652;
+    background-color: #082a37;
     color: white;
 }
 .logout-sec {
@@ -46,16 +52,20 @@
     padding: 10px;
 }
 .logout-sec button {
-    background-color: #0d3f54;
+    background-color: #0a8181;
     font-size: 1.2rem;
     color: #ffffff;
-    padding: 2px 10px;
+    padding: 5px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
 }
 .logout-sec button:hover {
-    background-color: darkcyan;
+    background-color: #065656;
     color: white;
+    transition: 300ms;
 }
-
 
 @media (max-width:768px){
     .left-sec {
